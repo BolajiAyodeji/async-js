@@ -1,48 +1,28 @@
 
-const http = new customAJAX;
+const http = new customFETCH;
 
 const data = {
-  userId: 101,
-  title: 'Custom post',
-  body: 'This is a custom post'
+  name: 'John Doe',
+  username: 'johndoe',
+  email: 'john@gmail.com'
 };
 
-// GET request
-posts = http.get('https://jsonplaceholder.typicode.com/posts',
-(err, posts) => {
-  if(err) {
-    console.log(err)
-  } else {
-  console.log(posts);
-  }
-});
+// GET Request
+http.get("https://jsonplaceholder.typicode.com/users")
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 
-// POST request
-http.post('https://jsonplaceholder.typicode.com/posts',
-data, (err, post) => {
-  if(err) {
-    console.log(err)
-  } else {
-    console.log(post);
-  }
-});
+// POST Request
+http.post("https://jsonplaceholder.typicode.com/users", data)
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 
-// PUT request
-http.put('https://jsonplaceholder.typicode.com/posts/1',
-data, (err, post) => {
-  if(err) {
-    console.log(err)
-  } else {
-    console.log(post);
-  }
-});
+// PUT Request
+http.put("https://jsonplaceholder.typicode.com/users/2", data)
+    .then(data => console.log(data))
+    .catch(err => console.log(err));
 
-// DELETE request
-posts = http.delete('https://jsonplaceholder.typicode.com/posts/1',
-(err, response) => {
-  if(err) {
-    console.log(err)
-  } else {
-  console.log(response);
-  }
-});
+// DELETE Request
+http.delete("https://jsonplaceholder.typicode.com/users/2")
+    .then(() => console.log(data))
+    .catch(err => console.log(err));
