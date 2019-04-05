@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <link rel="shortcut icon" href="./.favicon.ico">
-   <title>Directory Contents</title>
+   <title>Asynchronous JavaScript</title>
 
    <link rel="stylesheet" href="./.style.css">
    <script src="./.sorttable.js"></script>
