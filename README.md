@@ -10,4 +10,4 @@ Learn Asynchronous JavaScript :zap:
 5. [x] Call Back Functions - [Demo](https://bolajiayodeji.github.io/async-js/05-Call%20Back%20Functions)
 6. [x] Custom HTTP Library - [Demo](https://bolajiayodeji.github.io/async-js/06-Custom%20HTTP%20Library)
 7. [x] ES6 Promises - [Demo](https://bolajiayodeji.github.io/async-js/07-ES6%20Promises)
-8. [x] The Fetch API - [Demo](https://bolajiayodeji.github.io/async-js/)
+8. [x] The Fetch API - [Demo](https://bolajiayodeji.github.io/async-js/08-The%20Fetch%20API)
