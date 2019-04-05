@@ -9,4 +9,4 @@ Learn Asynchronous JavaScript :zap:
 4. [x] REST APIs and Other HTTP Methods - [Demo](https://bolajiayodeji.github.io/async-js/04-REST%20APIs%20%26%20Other%20HTTP%20Methods)
 5. [x] Call Back Functions - [Demo](https://bolajiayodeji.github.io/async-js/05-Call%20Back%20Functions)
 6. [x] Custom HTTP Library - [Demo](https://bolajiayodeji.github.io/async-js/06-Custom%20HTTP%20Library)
-7. [x] ES6 Promises - [Demo](https://bolajiayodeji.github.io/async-js/)
+7. [x] ES6 Promises - [Demo](https://bolajiayodeji.github.io/async-js/07-ES6%20Promises)
